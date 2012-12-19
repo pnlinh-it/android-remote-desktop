@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.asp.android.rdp" android:versionCode="1"
+	android:versionName="1.0">
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<supports-screens android:normalScreens="true" android:largeScreens="true" android:smallScreens="true" android:xlargeScreens="true"></supports-screens>
+<uses-sdk android:targetSdkVersion="9" android:minSdkVersion="9"/>
+
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:name="com.asp.android.rdp.ui.SettingsActivity"
+			android:label="@string/app_name">
+
+		</activity>
+		<service android:name="com.asp.android.rdp.service.RDPService" />
+		<activity android:name="com.asp.android.rdp.ui.RDesktopActivity"
+			android:screenOrientation="portrait" />
+		<activity android:name="com.asp.android.rdp.ui.SplashActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+	</application>
+</manifest>

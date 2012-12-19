@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, SplashActivity!</string>
+	<string name="app_name">DroidRemoteDesktop</string>
+	<string name="enter_ip_address_or_host_name">Enter IP address or Host name</string>
+
+	<string name="ip_address_or_host_name">IP address/Host name"</string>
+	<string name="user_name">Username (optional)</string>
+	<string name="password">Password (optional)</string>
+	<string name="domain">Domain (optional)</string>
+	<string name="directory">Directory (optional)</string>
+
+	<string name="login_automatically">Login automatically</string>
+	<string name="remember_password">Remember password</string>
+	<string name="show_password">Show password</string>
+	<string name="connect">Connect</string>
+	<string name="connecting">Connecting</string>
+	<string name="ok">OK</string>
+	<string name="info">Information</string>
+
+	<string name="error">Error</string>
+	<string name="warning">Warning</string>
+	<string name="enter_ip_address">Please enter your computers IP address or HOST
+		name.</string>
+	<string name="error_connecting_unknown_host">Could not connect to the remote system.Please
+		verify the IP address/HOST name.</string>
+	<string name="error_connecting_connection_error">Could not connect to the remote system due to
+		unexpected connection error.</string>
+	<string name="host_not_found">Could not resolve host name: </string>
+	
+	<string name="resolution">Resolution</string>
+	<string-array name="resolution">
+	    <item>Fit to the screen</item>
+		<item>800X600</item>
+		<item>1024X768</item>
+		<item>1280X720</item>
+		<item>1280X768</item>
+		<item>1280X1024</item>
+		<item>1600X900</item>
+		<item>1680X1050</item>
+		<item>1920X1080</item>
+	</string-array>
+	
+	<string name="color_depth">Color depth</string>
+	<string-array name="color_depth" >
+	<item>8-bit</item>
+	<item>16-bit</item>
+	<item>24-bit</item>
+	<item>32-bit</item>
+	</string-array>
+	
+	
+	<string name="rdp_client">Android Remote Desktop</string>
+	<string name="end_session_title">End session</string>
+	<string name="end_session_message">Are you sure you want to end this session ?</string>
+	<string name="disconnected_title">Disconnected</string>
+	<string name="disconnected_message">RDP session got disconnected.Please try again.</string>
+	<string name="show_wallpaper">Show desktop background</string>
+	<string name="show_themes">Show theme</string>
+</resources>
